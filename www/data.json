@@ -1296,14 +1296,14 @@
 			},
 			{
 				"id": "info-what-are-page",
-				"title": "Qu'est-ce que le travail des enfants et le travail forcé?",
+				"title": "Qu'est-ce que le travail des enfants et le travail forcé\u00a0?",
 				"url": "/info-pages/what-are_fr.html",
 				"preview": "What are Child Labor and Forced Labor?",
 				"keywords": ["Travail des enfants", "Travail forcé"]
 			},
 			{
 				"id": "info-why-develop-page",
-				"title": "Pourquoi élaborer un système de conformité sociale&nbsp;?",
+				"title": "Pourquoi élaborer un système de conformité sociale\u00a0?",
 				"url": "/info-pages/why-develop_fr.html",
 				"hidden": true,
 				"preview": "Why Develop a Social Compliance System?",
@@ -1351,7 +1351,7 @@
 						"type": "other",
 						"preview": "This is a sample preview for 'Why Seek Stakeholder Engagement?'",
 						"keywords": [],
-						"title": "Pourquoi rechercher la participation des parties prenantes&nbsp;?",
+						"title": "Pourquoi rechercher la participation des parties prenantes\u00a0?",
 						"url": "/topics/step1/topic1_fr.html"
 					},
 					{
@@ -1359,7 +1359,7 @@
 						"type": "other",
 						"preview": "This is a sample preview for Step 1 Topic 2",
 						"keywords": [],
-						"title": "Que peuvent faire les parties prenantes&nbsp;?",
+						"title": "Que peuvent faire les parties prenantes\u00a0?",
 						"url": "/topics/step1/topic2_fr.html"
 					},
 					{
@@ -1427,7 +1427,7 @@
 						"type": "other",
 						"preview": "This is a sample preview for 'Why Seek Stakeholder Engagement?'",
 						"keywords": [],
-						"title": "Pourquoi réaliser des évaluations de risques et d'incidences&nbsp;?",
+						"title": "Pourquoi réaliser des évaluations de risques et d'incidences\u00a0?",
 						"url": "/topics/step2/topic1_fr.html"
 					},
 					{
@@ -1501,8 +1501,8 @@
 					"Se familiariser avec les programmes sectoriels ou intersectoriels qui peuvent vous concerner."
 				],
 				"keyTerms": [{
-					"termName": "Code de conduite (« Code »)",
-					"termDefinition": "<p>Base d’un programme de conformité sociale, un code de conduite est un document précisant les normes et politiques sociales (et, souvent, environnementales) avec lesquelles une entreprise et ses fournisseurs sont censés être en conformité.  Un grand nombre d’entreprises utilisent un autre terme que « code de conduite », tel que « conditions d’engagement », « attente envers les fournisseurs », etc., mais l’ensemble de cette appli utilise ce terme par souci de cohérence et de clarté.</p><p>Un code constitue un ensemble de normes volontaires; à cet égard, il est différent d’une loi, bien qu’il faille prendre en compte la législation pertinente (à la fois aux États-Unis et dans le pays d’origine), de même que les conventions collectives et les accords-cadres internationaux (ACI) avec les fédérations syndicales, qui ont force exécutoire.  Un code ne saurait remplacer l’un de ces instruments quel qu’il soit.</p>"
+					"termName": "Code de conduite («\u00a0Code\u00a0»)",
+					"termDefinition": "<p>Base d’un programme de conformité sociale, un code de conduite est un document précisant les normes et politiques sociales (et, souvent, environnementales) avec lesquelles une entreprise et ses fournisseurs sont censés être en conformité.  Un grand nombre d’entreprises utilisent un autre terme que «&nbsp;code de conduite&nbsp;», tel que «&nbsp;conditions d’engagement&nbsp;», «&nbsp;attente envers les fournisseurs&nbsp;», etc., mais l’ensemble de cette appli utilise ce terme par souci de cohérence et de clarté.</p><p>Un code constitue un ensemble de normes volontaires&nbsp;; à cet égard, il est différent d’une loi, bien qu’il faille prendre en compte la législation pertinente (à la fois aux États-Unis et dans le pays d’origine), de même que les conventions collectives et les accords-cadres internationaux (ACI) avec les fédérations syndicales, qui ont force exécutoire.  Un code ne saurait remplacer l’un de ces instruments quel qu’il soit.</p>"
 				}],
 				"topics": [{
 						"index": 1,
@@ -1517,7 +1517,7 @@
 						"type": "other",
 						"preview": "This is a sample preview for Step 1 Topic 2",
 						"keywords": [],
-						"title": "Qu'est-ce qui fait la qualité d'un code de conduite?",
+						"title": "Qu'est-ce qui fait la qualité d'un code de conduite\u00a0?",
 						"url": "/topics/step3/topic2_fr.html"
 					},
 					{
@@ -1592,7 +1592,7 @@
 						"type": "other",
 						"preview": "This is a sample preview for Step 1 Topic 2",
 						"keywords": [],
-						"title": "Qui devrait bénéficier de la formation?",
+						"title": "Qui devrait bénéficier de la formation\u00a0?",
 						"url": "/topics/step4/topic2_fr.html"
 					},
 					{
@@ -1600,7 +1600,7 @@
 						"type": "other",
 						"preview": "This is a sample preview for Step 1 Topic 3",
 						"keywords": [],
-						"title": "Quels sujets la formation et le renforcement des capacités devraient-ils couvrir?",
+						"title": "Quels sujets la formation et le renforcement des capacités devraient-ils couvrir\u00a0?",
 						"url": "/topics/step4/topic3_fr.html"
 					},
 					{
@@ -1608,7 +1608,7 @@
 						"type": "other",
 						"preview": "This is a sample preview for Step 1 Topic 3",
 						"keywords": [],
-						"title": "Où, quand et comment la formation devrait-elle se tenir?",
+						"title": "Où, quand et comment la formation devrait-elle se tenir\u00a0?",
 						"url": "/topics/step4/topic4_fr.html"
 					},
 					{
@@ -1708,7 +1708,7 @@
 						"type": "other",
 						"preview": "This is a sample preview for Step 1 Topic 3",
 						"keywords": [],
-						"title": "Sujet particulier : Sous-traitance informelle et « devoirs »",
+						"title": "Sujet particulier : Sous-traitance informelle et travail à domicile",
 						"url": "/topics/step5/topic7_fr.html"
 					},
 
@@ -1900,7 +1900,7 @@
 						"type": "other",
 						"preview": "This is a sample preview for Step 1 Topic 3",
 						"keywords": [],
-						"title": "Pourquoi produire des rapports publics?",
+						"title": "Pourquoi produire des rapports publics\u00a0?",
 						"url": "/topics/step8/topic2_fr.html"
 					},
 
