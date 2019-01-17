@@ -34000,7 +34000,6 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
         }
 
         .drawer-list app-link {
-            width: 100%;
             padding: 0 0 0 16px;
         }
 
@@ -34245,7 +34244,15 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
                     <app-link name="key-resources" href="/info-key-resources">
                         <localized-data value="key_r"></localized-data>
                     </app-link>
-                    <a href="mailto:GlobalKids@dol.gov?subject=Comments on Comply Chain App" target="_top"><localized-data value="contact_us"></localized-data></a>
+                    <template is="dom-if" if="[[isEnglish]]">
+                        <a href="mailto:GlobalKids@dol.gov?subject=Comments on Comply Chain App" target="_top"><localized-data value="contact_us"></localized-data></a>
+                    </template>
+                    <template is="dom-if" if="[[isSpanish]]">
+                        <a href="mailto:GlobalKids@dol.gov?subject=Comentarios sobre la aplicación Comply Chain" target="_top"><localized-data value="contact_us"></localized-data></a>
+                    </template>
+                    <template is="dom-if" if="[[isFrench]]">
+                        <a href="mailto:GlobalKids@dol.gov?subject=Commentaires sur l%27appli Comply Chain" target="_top"><localized-data value="contact_us"></localized-data></a>
+                    </template>
                 </iron-selector>
             </app-drawer>
             <!-- Main content -->
@@ -34432,6 +34439,18 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
                 search_placeholder:{
                     type: String,
                     value: "Search..."
+                },
+                isEnglish: {
+                    type: Boolean,
+                    computed: '_isEnglish(routeData.stepId, stepData)',
+                },
+                isFrench: {
+                    type: Boolean,
+                    computed: '_isFrench(routeData.stepId, stepData)',
+                },
+                isSpanish: {
+                    type: Boolean,
+                    computed: '_isSpanish(routeData.stepId, stepData)',
                 }
             };
         }
@@ -34597,6 +34616,33 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
                 return null;
             }
             return baseData[lang].info.filter(item => !item.hidden);
+        }
+        
+        _isEnglish()
+        {
+            if (window.localStorage.lang == 'en') {
+                return true;
+            }
+
+            return false;
+        }
+
+        _isFrench()
+        {
+            if (window.localStorage.lang == 'fr') {
+                return true;
+            }
+
+            return false;
+        }
+
+        _isSpanish()
+        {
+            if (window.localStorage.lang == 'es') {
+                return true;
+            }
+
+            return false;
         }
 
 
