@@ -21,44 +21,67 @@
             <div class="flex">
                 <iron-pages class="inline" attr-for-selected="page-name" selected="[[routeData.page]]" fallback-selection="default">
                     <div class="inline" page-name="default">
-                        <app-link href="/home" hidden$="[[!isEnglish]]">
-                            <div class="link inline">Home</div>
-                        </app-link>
-                        <app-link href="/home" hidden$="[[!isFrench]]">
-                            <div class="link inline">Accueil</div>
-                        </app-link>
-                        <app-link href="/home" hidden$="[[!isSpanish]]">
-                            <div class="link inline">Inicio</div>
-                        </app-link>
+
+                        <template is="dom-if" if="[[isEnglish]]">
+                            <app-link href="/home">
+                                <div class="link inline">Home</div>
+                            </app-link>
+                        </template>
+
+                        <template is="dom-if" if="[[isFrench]]">
+                            <app-link href="/home">
+                                <div class="link inline">Accueil</div>
+                            </app-link>
+                        </template>
+
+                        <template is="dom-if" if="[[isSpanish]]">
+                            <app-link href="/home">
+                                <div class="link inline">Inicio</div>
+                            </app-link>
+                        </template>
                         <iron-pages class="inline" attr-for-selected="page-name" selected="[[routeData.page]]" fallback-selection="default">
                             <div class="inline" page-name="default">
                                 <span aria-hidden="true">></span> 
-                                <app-link href="/steps-landing" hidden$="[[!isEnglish]]"><div class="link inline">Steps</div></app-link>
-                                <app-link href="/steps-landing" hidden$="[[!isFrench]]"><div class="link inline">Étapes</div></app-link>
-                                <app-link href="/steps-landing" hidden$="[[!isSpanish]]"><div class="link inline">Pasos</div></app-link>
+                                <template is="dom-if" if="[[isEnglish]]">
+                                    <app-link href="/steps-landing"><div class="link inline">Steps</div></app-link>
+                                </template>
+                                <template is="dom-if" if="[[isFrench]]">
+                                    <app-link href="/steps-landing"><div class="link inline">Étapes</div></app-link>
+                                </template>
+                                <template is="dom-if" if="[[isSpanish]]">
+                                    <app-link href="/steps-landing"><div class="link inline">Pasos</div></app-link>
+                                </template>
                                 <iron-pages class="inline" attr-for-selected="page-name" selected="[[routeData.page]]" fallback-selection="default">
                                     <div class="inline" page-name="step">
                                         <span aria-hidden="true">></span> <localized-data value="step"></localized-data> [[step.index]]
                                     </div>
                                     <div class="inline" page-name="topic">
                                         >
-                                        <app-link href="/step/[[step.index]]" hidden$="[[!isEnglish]]">
-                                            <div class="link inline">Step [[step.index]]
-                                                <!--[[step.stepTitle]]-->
-                                            </div>
-                                        </app-link>
 
-                                        <app-link href="/step/[[step.index]]" hidden$="[[!isFrench]]">
-                                            <div class="link inline">Étape [[step.index]]
-                                                <!--[[step.stepTitle]]-->
-                                            </div>
-                                        </app-link>
+                                        <template is="dom-if" if="[[isEnglish]]">
+                                            <app-link href="/step/[[step.index]]">
+                                                <div class="link inline">Step [[step.index]]
+                                                    <!--[[step.stepTitle]]-->
+                                                </div>
+                                            </app-link>
+                                        </template>
 
-                                        <app-link href="/step/[[step.index]]" hidden$="[[!isSpanish]]">
-                                            <div class="link inline">Paso [[step.index]]
-                                                <!--[[step.stepTitle]]-->
-                                            </div>
-                                        </app-link>
+
+                                        <template is="dom-if" if="[[isFrench]]">
+                                            <app-link href="/step/[[step.index]]">
+                                                <div class="link inline">Étape [[step.index]]
+                                                    <!--[[step.stepTitle]]-->
+                                                </div>
+                                            </app-link>
+                                        </template>
+
+                                        <template is="dom-if" if="[[isSpanish]]">
+                                            <app-link href="/step/[[step.index]]">
+                                                <div class="link inline">Paso [[step.index]]
+                                                    <!--[[step.stepTitle]]-->
+                                                </div>
+                                            </app-link>
+                                        </template>
 
                                         <span aria-hidden="true">></span> <localized-data value="topic"></localized-data> [[topic.index]] / [[step.topics.length]]
                                         <!--[[topic.title]]-->
