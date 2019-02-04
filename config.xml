@@ -21,6 +21,7 @@
         <preference name="android-targetSdkVersion" value="26" />
     </platform>
     <platform name="ios">
+        <content src="ios-index.html" />
         <allow-intent href="itms:*" />
         <allow-intent href="itms-apps:*" />
     </platform>
