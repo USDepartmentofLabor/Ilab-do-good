@@ -30682,12 +30682,12 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
         </custom-style>
         <style>
          :host {
-            cursor: pointer;
-            display: inline-block;
+             cursor: pointer;
+             margin-right: 5px;
         }
         </style>
         <iron-a11y-keys id="a11y" target="[[target]]" keys="enter" on-keys-pressed="follow"></iron-a11y-keys>
-        <a tabindex="1" id="link">
+        <a tabindex="1" id="link" style="margin-right: -5px">
             <slot></slot>
         </a>
     </template>
