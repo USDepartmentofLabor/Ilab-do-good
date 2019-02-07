@@ -39,7 +39,6 @@
     <author email="akshay.sanganal@icf.com" href="http://cordova.io">
         ICF Dev
     </author>
-    <content src="ios-index.html" />
     <access origin="*" />
     <allow-intent href="http://*/*" />
     <allow-intent href="https://*/*" />
@@ -64,6 +63,7 @@
     <icon height="114" platform="ios" src="res/comply-chain-app-114.png" width="114" />
     <icon height="1024" platform="ios" src="res/comply-chain-app-1024.jpg" width="1024" />
     <icon height="72" platform="android" src="res/comply-chain-app-72.png" width="72" />
+    <content src="ios-index.html" />
     <allow-intent href="itms:*" />
     <allow-intent href="itms-apps:*" />
     <preference name="AllowInlineMediaPlayback" value="false" />
